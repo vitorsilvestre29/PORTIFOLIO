@@ -12,7 +12,7 @@ export default function Hero() {
             <TrendingUp className="h-8 w-8 text-blue-400" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Portfólio de Análise de Dados
+            Vitor Silvestre
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
             Transformando dados brutos em insights acionáveis através de análises avançadas,
