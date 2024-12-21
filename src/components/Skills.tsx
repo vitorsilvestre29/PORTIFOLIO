@@ -10,7 +10,7 @@ const skills = [
   {
     icon: <BarChart2 className="h-6 w-6" />,
     title: 'Visualização de Dados',
-    description: 'Power BI, Python e SQL'
+    description: 'Power BI, Python,SQL'
   },
   {
     icon: <Brain className="h-6 w-6" />,
