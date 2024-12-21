@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://vitorsilvestre29.github.io/PORTIFOLIO/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
