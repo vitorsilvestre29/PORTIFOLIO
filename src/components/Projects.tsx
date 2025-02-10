@@ -4,10 +4,11 @@ const projects = [
   {
     title: 'Análise de Dados de Vendas Simples',
     description: 'Análise de conjunto de dados de vendas identificando produtos mais vendidos, receita total e sazonalidade. Inclui limpeza de dados, análise de métricas básicas e visualizações.',
-    image: 'https://imgur.com/a/zlRzss7',
+    image: 'https://i.imgur.com/TqFk2Ks.jpeg',
     tags: ['Excel', 'Power BI'],
     icon: <LineChart className="h-8 w-8 text-blue-400" />,
-    powerbiLink: 'https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhMTYtNGUwZS00ODA0LWJiNDgtZjU2MmUxMGUwYWM1IiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9&pageName=f22c8ff147d0934b057a" frameborder="0" allowFullScreen="true"></iframe>'
+    powerbiLink: 'https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhMTYtNGUwZS00ODA0LWJiNDgtZjU2MmUxMGUwYWM1IiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9&pageName=f22c8ff147d0934b057a'
+
   },
   {
     title: 'Sistema de Análise de Estoque',
