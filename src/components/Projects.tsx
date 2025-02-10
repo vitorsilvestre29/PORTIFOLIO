@@ -8,7 +8,7 @@ const projects = [
     image: 'https://imgur.com/a/zlRzss7',
     tags: ['Excel', 'Power BI'],
     icon: <LineChart className="h-8 w-8 text-blue-400" />,
-    powerbiLink: '<iframe title="Analise de Vendas" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhMTYtNGUwZS00ODA0LWJiNDgtZjU2MmUxMGUwYWM1IiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9&pageName=f22c8ff147d0934b057a" frameborder="0" allowFullScreen="true"></iframe>'
+    powerbiLink: 'https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhMTYtNGUwZS00ODA0LWJiNDgtZjU2MmUxMGUwYWM1IiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9&pageName=f22c8ff147d0934b057a" frameborder="0" allowFullScreen="true"></iframe>'
   },
   {
     title: 'Sistema de Análise de Estoque',
