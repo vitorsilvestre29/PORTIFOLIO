@@ -1,5 +1,4 @@
 import { ExternalLink, Github, LineChart, Package, BarChart3, MessageCircle } from 'lucide-react'; 
-import React from 'react'; 
 
 const projects = [
   {
