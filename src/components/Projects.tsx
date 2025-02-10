@@ -1,15 +1,16 @@
-import React from 'react';
-import { ExternalLink, Github, LineChart, Package, MessageCircle } from 'lucide-react';
+import { ExternalLink, Github, LineChart, Package, BarChart3, MessageCircle } from 'lucide-react'; 
+import React from 'react'; 
 
 const projects = [
   {
     title: 'Análise de Dados de Vendas Simples',
     description: 'Análise de conjunto de dados de vendas identificando produtos mais vendidos, receita total e sazonalidade. Inclui limpeza de dados, análise de métricas básicas e visualizações.',
-    image: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&q=80&w=800',
+    image: 'https://imgur.com/a/zlRzss7',
     tags: ['Excel', 'Python', 'Power BI'],
     icon: <LineChart className="h-8 w-8 text-blue-400" />,
     github: '#',
-    demo: '#'
+    demo: '#',
+    powerbiLink: '<iframe title="Analise de Vendas" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhMTYtNGUwZS00ODA0LWJiNDgtZjU2MmUxMGUwYWM1IiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9&pageName=f22c8ff147d0934b057a" frameborder="0" allowFullScreen="true"></iframe>'
   },
   {
     title: 'Sistema de Análise de Estoque',
@@ -25,7 +26,17 @@ const projects = [
     description: 'Análise de dados de SAC identificando padrões, principais problemas e tempo médio de resolução. Utiliza técnicas de limpeza de dados e visualizações interativas.',
     image: 'https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&q=80&w=800',
     tags: ['Python', 'MySQL', 'Power BI'],
-    icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
+    icon: <MessageCircle className="h-8 w-8 text-blue-400" />, // Agora está correto
+    github: '#',
+    demo: '#',
+    powerbiLink: 'https://app.powerbi.com/view?r=OUTRO_LINK_AQUI'
+  },
+  {
+    title: 'Projeto Sem Título',
+    description: 'Descrição não disponível.',
+    image: 'https://via.placeholder.com/800x400?text=Imagem+Indisponível',
+    tags: [],
+    icon: <Package className="h-8 w-8 text-blue-400" />,
     github: '#',
     demo: '#'
   }
@@ -53,7 +64,7 @@ export default function Projects() {
                 <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
                 <p className="text-gray-300 mb-4 line-clamp-3">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag, tagIndex) => (
+                  {project.tags?.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
                       className="px-3 py-1 bg-blue-900/30 text-blue-400 rounded-full text-sm"
@@ -66,17 +77,34 @@ export default function Projects() {
                   <a
                     href={project.github}
                     className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Github className="h-5 w-5" />
                     <span>Código</span>
                   </a>
+
                   <a
                     href={project.demo}
                     className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <ExternalLink className="h-5 w-5" />
                     <span>Demo</span>
                   </a>
+
+                  {project.powerbiLink && (
+                    <a
+                      href={project.powerbiLink}
+                      className="flex items-center gap-2 text-gray-300 hover:text-yellow-400 transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <BarChart3 className="h-5 w-5" />
+                      <span>Power BI</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
