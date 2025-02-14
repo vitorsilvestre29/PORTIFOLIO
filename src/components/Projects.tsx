@@ -8,7 +8,6 @@ const projects = [
     tags: ['Excel', 'Power BI'],
     icon: <LineChart className="h-8 w-8 text-blue-400" />,
     powerbiLink: 'https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhMTYtNGUwZS00ODA0LWJiNDgtZjU2MmUxMGUwYWM1IiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9&pageName=f22c8ff147d0934b057a'
-
   },
   {
     title: 'Sistema de Análise de Estoque',
@@ -16,8 +15,8 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800',
     tags: ['Python', 'Power BI', 'PostgreSQL'],
     icon: <Package className="h-8 w-8 text-blue-400" />,
-    github: '#',
-    demo: '#'
+    github: 'https://github.com/vitorsilvestre29/dash-estoque', // Link do repositório do projeto Dash
+    linkProjeto: 'https://dash-estoque.onrender.com' // Link do projeto Dash
   },
   {
     title: 'Análise de Reclamações de Consumidores',
@@ -26,7 +25,6 @@ const projects = [
     tags: ['Python', 'SQL', 'Power BI'],
     icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
     github: '#',
-    demo: '#',
     powerbiLink: '' //LINK POWERBI
   },
 ];
@@ -72,17 +70,6 @@ export default function Projects() {
                     <Github className="h-5 w-5" />
                     <span>Código</span>
                   </a>
-
-                  <a
-                    href={project.demo}
-                    className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <ExternalLink className="h-5 w-5" />
-                    <span>Demo</span>
-                  </a>
-
                   {project.powerbiLink && (
                     <a
                       href={project.powerbiLink}
@@ -92,6 +79,19 @@ export default function Projects() {
                     >
                       <BarChart3 className="h-5 w-5" />
                       <span>Power BI</span>
+                    </a>
+                  )}
+
+                  {/* Novo botão para o link do projeto Dash */}
+                  {project.linkProjeto && (
+                    <a
+                      href={project.linkProjeto}
+                      className="flex items-center gap-2 text-gray-300 hover:text-green-400 transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="h-5 w-5" />
+                      <span>Projeto de Estoque</span>
                     </a>
                   )}
                 </div>
