@@ -23,21 +23,12 @@ const projects = [
     title: 'Análise de Reclamações de Consumidores',
     description: 'Análise de dados de SAC identificando padrões, principais problemas e tempo médio de resolução. Utiliza técnicas de limpeza de dados e visualizações interativas.',
     image: 'https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&q=80&w=800',
-    tags: ['Python', 'MySQL', 'Power BI'],
-    icon: <MessageCircle className="h-8 w-8 text-blue-400" />, // Agora está correto
+    tags: ['Python', 'SQL', 'Power BI'],
+    icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
     github: '#',
     demo: '#',
-    powerbiLink: 'https://app.powerbi.com/view?r=OUTRO_LINK_AQUI'
+    powerbiLink: '' //LINK POWERBI
   },
-  {
-    title: 'Projeto Sem Título',
-    description: 'Descrição não disponível.',
-    image: 'https://via.placeholder.com/800x400?text=Imagem+Indisponível',
-    tags: [],
-    icon: <Package className="h-8 w-8 text-blue-400" />,
-    github: '#',
-    demo: '#'
-  }
 ];
 
 export default function Projects() {
