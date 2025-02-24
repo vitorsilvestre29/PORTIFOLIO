@@ -12,20 +12,19 @@ const projects = [
   {
     title: 'Sistema de Análise de Estoque',
     description: 'Sistema de análise de dados de estoque com insights sobre produtos mais vendidos, estoque mínimo e sazonalidade. Inclui modelagem de dados e dashboards interativos.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800',
-    tags: ['Python', 'Power BI', 'PostgreSQL'],
+    tags: ['Python', 'Power BI', 'SQL Server'],
     icon: <Package className="h-8 w-8 text-blue-400" />,
     github: 'https://github.com/vitorsilvestre29/dash-estoque', // Link do repositório do projeto Dash
     linkProjeto: 'https://dash-estoque.onrender.com' // Link do projeto Dash
   },
   {
-    title: 'Análise de Reclamações de Consumidores',
-    description: 'Análise de dados de SAC identificando padrões, principais problemas e tempo médio de resolução. Utiliza técnicas de limpeza de dados e visualizações interativas.',
-    image: 'https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&q=80&w=800',
-    tags: ['Python', 'SQL', 'Power BI'],
+    title: 'Análise de Produtividade Operacional',
+    description: 'Análise de Produtividade para medir a eficiência dos processos internos, avaliando SLA, produtividade por colaborador e eficácia de processos manuais.',
+    image: 'https://imgur.com/a/YmU0sbj',
+    tags: ['Python.', 'SQL', 'Power BI'],
     icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
     github: '#',
-    powerbiLink: '' //LINK POWERBI
+    powerbiLink: 'https://app.powerbi.com/view?r=eyJrIjoiMDdlNjRhYjItNGEzOS00MWMzLWIzZDEtNzdkMDM0NDUyZjQwIiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9' //LINK POWERBI
   },
 ];
 
