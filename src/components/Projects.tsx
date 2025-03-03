@@ -12,6 +12,7 @@ const projects = [
   {
     title: 'Sistema de Análise de Estoque',
     description: 'Sistema de análise de dados de estoque com insights sobre produtos mais vendidos, estoque mínimo e sazonalidade. Inclui modelagem de dados e dashboards interativos.',
+    image: 'https://postimg.cc/87fd6Dcz', // Link direto da imagem
     tags: ['Python', 'Power BI', 'SQL Server'],
     icon: <Package className="h-8 w-8 text-blue-400" />,
     github: 'https://github.com/vitorsilvestre29/dash-estoque', // Link do repositório do projeto Dash
@@ -20,7 +21,7 @@ const projects = [
   {
     title: 'Análise de Produtividade Operacional',
     description: 'Análise de Produtividade para medir a eficiência dos processos internos, avaliando SLA, produtividade por colaborador e eficácia de processos manuais.',
-    image: 'https://imgur.com/a/YmU0sbj',
+    image: 'https://i.postimg.cc/cg9tz8jB/YmU0sbj.jpg', // Link direto da imagem
     tags: ['Python.', 'SQL', 'Power BI'],
     icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
     github: '#',
