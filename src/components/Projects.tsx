@@ -22,10 +22,19 @@ const projects = [
     title: 'Análise de Produtividade Operacional',
     description: 'Análise de Produtividade para medir a eficiência dos processos internos, avaliando SLA, produtividade por colaborador e eficácia de processos manuais.',
     image: 'https://i.postimg.cc/cg9tz8jB/YmU0sbj.jpg', // Link direto da imagem
-    tags: ['Python.', 'SQL', 'Power BI'],
+    tags: ['Python.', 'SQL Server', 'Power BI'],
     icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
     github: '#',
     powerbiLink: 'https://app.powerbi.com/view?r=eyJrIjoiMDdlNjRhYjItNGEzOS00MWMzLWIzZDEtNzdkMDM0NDUyZjQwIiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9' //LINK POWERBI
+  },
+  {
+    title: 'Análise de Gestão Financeira',
+    description: 'Gestão Financeira Empresarial para monitorar a saúde financeira do negócio, analisando receitas, despesas, fluxo de caixa acumulado e rentabilidade, proporcionando insights para otimização de custos e aumento da lucratividade.',
+    image: 'https://i.postimg.cc/nV3Q3nVy/Whats-App-Image-2025-03-05-at-13-22-37.jpg', // Link direto da imagem
+    tags: ['SQL Server', 'Power BI'],
+    icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
+    github: '#',
+    powerbiLink: 'https://app.powerbi.com/view?r=eyJrIjoiMDU3YWQzYTItZWVhYi00NTNkLWFjZjctOTU4MzA2YTQ4NTMxIiwidCI6IjM1YTRlNGUxLWIyZDUtNGIxNC1hMTVjLTY0MjA2MTk0OGY0NCJ9' //LINK POWERBI
   },
 ];
 
